@@ -161,7 +161,7 @@ void queue_linked_list<T>::dequeue() {
 }
 template <class T>
 queue_linked_list<T>::~queue_linked_list() {
-    this->~linked_list<T>();
+    this->linked_list<T> :: ~linked_list();
 }
 template <class T>
 void queue_linked_list<T>::display() {
@@ -195,7 +195,7 @@ void queue_circular_linked_list<T>::display() {
 }
 template <class T>
 queue_circular_linked_list<T>::~queue_circular_linked_list() {
-    this->~linked_list_circular<T>();
+    this->linked_list_circular<T> :: ~linked_list_circular();
 }
 
 

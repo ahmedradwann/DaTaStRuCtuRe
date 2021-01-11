@@ -190,7 +190,7 @@ switch (choose) {
         }
         break;
     case 2:
-    queue:
+    que:
     cout<<"a-Queue-Array\n";
     cout<<"b-Queue_linked_list\n";
     cout<<"c-Queue_circular_array\n";
@@ -234,7 +234,7 @@ switch (choose) {
                     goto Q_operation;
                     break;
              case 5:
-              goto queue;
+              goto que;
                  break;
              default:
                  break;
@@ -274,7 +274,7 @@ switch (choose) {
                        goto Q_operation2;
                        break;
                 case 5:
-                 goto queue;
+                 goto que;
                     break;
                 default:
                     break;
@@ -314,7 +314,7 @@ switch (choose) {
                        goto Q_operation3;
                        break;
                 case 5:
-                 goto queue;
+                 goto que;
                     break;
                 default:
                     break;
@@ -354,7 +354,7 @@ switch (choose) {
                        goto Q_operation4;
                        break;
                 case 5:
-                 goto queue;
+                 goto que;
                     break;
                 default:
                     break;
