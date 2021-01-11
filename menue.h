@@ -2,7 +2,6 @@
 //  menue.h
 //  project_Data
 //
-//  Created by ahmed radwan on 11/01/2021.
 //
 
 #ifndef menue_h
@@ -62,7 +61,7 @@ switch (choose) {
              cout<<"3-peak\n";
              cout<<"4-number of element\n";
             cout<<"5-Display\n";
-            cout<<"6-retern\n";
+            cout<<"6-return\n";
              cout<<"please, enter your choice : ";
              cin>>S;
              system("cls");
@@ -88,7 +87,9 @@ switch (choose) {
                      goto S_operation;
                      break;
                     case 5:
+                        cout<<"----------------------------------------------------\n";
                         obj_stack.Display();
+                        cout<<"----------------------------------------------------\n";
                         goto S_operation;
                  case 6:
                   goto stack;
@@ -104,7 +105,7 @@ switch (choose) {
             cout<<"3-peak\n";
             cout<<"4-number of element\n";
             cout<<"5-Display\n";
-            cout<<"6-retern\n";
+            cout<<"6-return\n";
             cout<<"please, enter your choice : ";
             cin>>S;
             system("cls");
@@ -130,7 +131,9 @@ switch (choose) {
                     goto S_operation2;
                     break;
                 case 5:
+                       cout<<"----------------------------------------------------\n";
                        obj_Dynamic_stack.display();
+                       cout<<"----------------------------------------------------\n";
                        goto S_operation2;
                        break;
                 case 6:
@@ -146,6 +149,7 @@ switch (choose) {
                 cout<<"2-pop\n";
                 cout<<"3-peak\n";
                 cout<<"4-Display\n";
+                cout<<"5- return\n";
                 cout<<"please, enter your choice : ";
                 cin>>S;
                 system("cls");
@@ -167,9 +171,14 @@ switch (choose) {
                        goto S_operation3;
                         break;
                        case 4:
+                           cout<<"----------------------------------------------------\n";
                            obj_Stack_linked.dispaly_stack();
+                           cout<<"----------------------------------------------------\n";
                            goto S_operation3;
                             break;
+                       case 5:
+                           goto stack;
+                           break;
                        default:
                            break;
                    }
@@ -197,7 +206,7 @@ switch (choose) {
          cout<<"2-dequeue\n";
          cout<<"3-number of element\n";
         cout<<"4-Display\n";
-        cout<<"5-retern\n";
+        cout<<"5-return\n";
          cout<<"please, enter your choice : ";
          cin>>S;
          system("cls");
@@ -219,7 +228,9 @@ switch (choose) {
                  goto Q_operation;
                  break;
              case 4:
+                    cout<<"----------------------------------------------------\n";
                     obj_Queue_Array.display();
+                    cout<<"----------------------------------------------------\n";
                     goto Q_operation;
                     break;
              case 5:
@@ -235,7 +246,7 @@ switch (choose) {
             cout<<"2-dequeue\n";
             cout<<"3-number of element\n";
            cout<<"4-Display\n";
-           cout<<"5-retern\n";
+           cout<<"5-return\n";
             cout<<"please, enter your choice : ";
             cin>>S;
             system("cls");
@@ -257,7 +268,9 @@ switch (choose) {
                     goto Q_operation2;
                     break;
                 case 4:
+                       cout<<"----------------------------------------------------\n";
                        obj_Queue_linked_list.display();
+                       cout<<"----------------------------------------------------\n";
                        goto Q_operation2;
                        break;
                 case 5:
@@ -273,7 +286,7 @@ switch (choose) {
             cout<<"2-dequeue\n";
             cout<<"3-number of element\n";
            cout<<"4-Display\n";
-           cout<<"5-retern\n";
+           cout<<"5-return\n";
             cout<<"please, enter your choice : ";
             cin>>S;
             system("cls");
@@ -295,7 +308,9 @@ switch (choose) {
                     goto Q_operation3;
                     break;
                 case 4:
+                       cout<<"----------------------------------------------------\n";
                        obj_Circular_Queue_Array.display();
+                       cout<<"----------------------------------------------------\n";
                        goto Q_operation3;
                        break;
                 case 5:
@@ -311,7 +326,7 @@ switch (choose) {
             cout<<"2-dequeue\n";
             cout<<"3-number of element\n";
            cout<<"4-Display\n";
-           cout<<"5-retern\n";
+           cout<<"5-return\n";
             cout<<"please, enter your choice : ";
             cin>>S;
             system("cls");
@@ -333,7 +348,9 @@ switch (choose) {
                     goto Q_operation4;
                     break;
                 case 4:
+                       cout<<"----------------------------------------------------\n";
                        obj_Circular_Queue_linked_list.display();
+                       cout<<"----------------------------------------------------\n";
                        goto Q_operation4;
                        break;
                 case 5:
@@ -356,7 +373,7 @@ switch (choose) {
         cout<<"b-Double linked list\n";
         cout<<"c-Circular linked list\n";
        cout<<"d-Double circular linked list\n";
-       cout<<"e-retern\n";
+       cout<<"e-return\n";
         cout<<"please, enter your choice : ";
         cin>>ch;
         system("cls");
@@ -421,7 +438,9 @@ switch (choose) {
                         goto L_operation;
                         break;
                     case 8:
+                        cout<<"----------------------------------------------------\n";
                         obj_linked.display();
+                        cout<<"----------------------------------------------------\n";
                         goto L_operation;
                         break;
                     case 9:
@@ -492,11 +511,15 @@ switch (choose) {
                                 goto L_operation2;
                                 break;
                             case 8:
+                                cout<<"----------------------------------------------------\n";
                                 obj_double_linked.display_from_start();
+                                cout<<"----------------------------------------------------\n";
                                 goto L_operation2;
                                 break;
                             case 9:
+                                cout<<"----------------------------------------------------\n";
                                 obj_double_linked.display_from_end();
+                                cout<<"----------------------------------------------------\n";
                                 goto L_operation2;
                                 break;
                             case 10:
@@ -565,7 +588,9 @@ switch (choose) {
                                 goto L_operation3;
                                 break;
                             case 8:
+                                cout<<"----------------------------------------------------\n";
                                 obj_linked.display();
+                                cout<<"----------------------------------------------------\n";
                                 goto L_operation3;
                                 break;
                             case 9:
@@ -636,11 +661,15 @@ switch (choose) {
                                 goto L_operation4;
                                 break;
                             case 8:
+                                cout<<"----------------------------------------------------\n";
                                 obj_double_circular_linked.display_from_start();
+                                cout<<"----------------------------------------------------\n";
                                 goto L_operation4;
                                 break;
                             case 9:
+                                cout<<"----------------------------------------------------\n";
                                 obj_double_circular_linked.display_from_end();
+                                cout<<"----------------------------------------------------\n";
                                 goto L_operation4;
                                 break;
                             case 10:
@@ -663,6 +692,7 @@ switch (choose) {
         cout<<"c-return\n";
         cout<<"please, enter your choice : ";
         cin>>ch;
+        system("cls");
         switch (ch) {
             case 'a':
                 BT_operation:
@@ -728,15 +758,21 @@ switch (choose) {
                         system("cls");
                         switch (ch) {
                             case 'a':
+                                cout<<"----------------------------------------------------\n";
                                 BT_obj.inOrder();
+                                cout<<"----------------------------------------------------\n";
                                 goto BT_operation;
                                 break;
                             case 'b':
+                                cout<<"----------------------------------------------------\n";
                                 BT_obj.preOrder();
+                                cout<<"----------------------------------------------------\n";
                                 goto BT_operation;
                                 break;
                             case 'c':
+                                cout<<"----------------------------------------------------\n";
                                 BT_obj.postOrder();
+                                cout<<"----------------------------------------------------\n";
                                 goto BT_operation;
                                 break;
                             default:
@@ -744,7 +780,9 @@ switch (choose) {
                         }
                         break;
                     case 8:
+                        cout<<"----------------------------------------------------\n";
                         BT_obj.levelOrder();
+                        cout<<"----------------------------------------------------\n";
                         goto BT_operation;
                         break;
                     case 9:
@@ -817,15 +855,21 @@ switch (choose) {
                         system("cls");
                         switch (ch) {
                             case 'a':
+                                cout<<"----------------------------------------------------\n";
                                 BST_obj.inOrder();
+                                cout<<"----------------------------------------------------\n";
                                 goto BT_operation2;
                                 break;
                             case 'b':
+                                cout<<"----------------------------------------------------\n";
                                 BST_obj.preOrder();
+                                cout<<"----------------------------------------------------\n";
                                 goto BT_operation2;
                                 break;
                             case 'c':
+                                cout<<"----------------------------------------------------\n";
                                 BST_obj.postOrder();
+                                cout<<"----------------------------------------------------\n";
                                 goto BT_operation2;
                                 break;
                             default:
@@ -833,7 +877,9 @@ switch (choose) {
                         }
                         break;
                     case 8:
+                        cout<<"----------------------------------------------------\n";
                         BST_obj.levelOrder();
+                        cout<<"----------------------------------------------------\n";
                         goto BT_operation2;
                         break;
                     case 9:
@@ -866,7 +912,7 @@ switch (choose) {
                 cout<<"1-Creat_or_insert\n";
                 cout<<"2-number of element\n";
                 cout<<"3-Display\n";
-                cout<<"4-retern\n";
+                cout<<"4-return\n";
                 cout<<"Enter your choice : ";
                 cin>>S;
                 switch (S) {
@@ -882,7 +928,9 @@ switch (choose) {
                         goto AS_operation;
                         break;
                     case 3:
+                        cout<<"----------------------------------------------------\n";
                         obj_ASSignment1.display();
+                        cout<<"----------------------------------------------------\n";
                         goto AS_operation;
                         break;
                     case 4:
@@ -904,6 +952,7 @@ switch (choose) {
                 obj_poly3.set_node(obj_poly3.add(obj_poly, obj_poly2));
                 
                 result(obj_poly.get_node(), obj_poly2.get_node(), obj_poly3.get_node());
+                cout<<endl<<endl;
                 goto Assignment;
                 break;
             case 'd':
@@ -912,7 +961,7 @@ switch (choose) {
                 cout<<"2-dequeue\n";
                 cout<<"3-number of element\n";
                cout<<"4-Display\n";
-               cout<<"5-retern\n";
+               cout<<"5-return\n";
                 cout<<"please, enter your choice : ";
                 cin>>S;
                 switch (S) {
@@ -933,7 +982,9 @@ switch (choose) {
                         goto AS_operation2;
                         break;
                     case 4:
+                        cout<<"----------------------------------------------------\n";
                         obj_queue.display();
+                        cout<<"----------------------------------------------------\n";
                         goto AS_operation2;
                         break;
                     case 5:
