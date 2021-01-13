@@ -1,9 +1,7 @@
 
 #include "menue.h"
 
-int main(void) {
-    // To Creates Objects
+int main() {
     Full_Menue();
-system("cls");
     return 0;
 }

@@ -173,6 +173,8 @@ public:
     bool IsFull();
     bool IsEmpty();
     void dispaly_stack();
+    int number_of_element() { return this->count; }
+
 };
 template <class T>
 class queue_array{
