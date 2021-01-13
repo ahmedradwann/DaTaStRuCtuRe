@@ -161,7 +161,11 @@ void queue_linked_list<T>::dequeue() {
 }
 template <class T>
 queue_linked_list<T>::~queue_linked_list() {
+<<<<<<< HEAD
     this->linked_list<T>::~linked_list();
+=======
+    this->linked_list<T> :: ~linked_list();
+>>>>>>> 73b2c5d448688660c188a2fb8d0d3842c669af73
 }
 template <class T>
 void queue_linked_list<T>::display() {
@@ -195,7 +199,11 @@ void queue_circular_linked_list<T>::display() {
 }
 template <class T>
 queue_circular_linked_list<T>::~queue_circular_linked_list() {
+<<<<<<< HEAD
     this->linked_list_circular<T>::~linked_list_circular();
+=======
+    this->linked_list_circular<T> :: ~linked_list_circular();
+>>>>>>> 73b2c5d448688660c188a2fb8d0d3842c669af73
 }
 
 
